@@ -21,5 +21,8 @@ class ConwayTests: XCTestCase {
         super.tearDown()
     }
     
-    
+    func testGameExists() {
+        
+        XCTAssertNotNil(Game())
+    }
 }
